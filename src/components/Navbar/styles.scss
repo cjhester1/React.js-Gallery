@@ -1,0 +1,28 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+  font-size: 24px;
+  letter-spacing: 1px;
+  font-family: "Syncopate", sans-serif;
+  color: #39665f;
+  font-weight: 600;
+  text-transform: uppercase;
+  a {
+    text-decoration: none;
+    color: black;
+    font-family: "Syncopate", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 24px;
+    cursor: none;
+
+    text-shadow: 1px 1px 1px white, 1px 2px 1px white, 1px 3px 1px white,
+      1px 4px 1px white;
+
+    // text-shadow: 1px 1px 1px rgb(85, 85, 85), 1px 2px 1px rgb(40, 169, 65),
+    //   1px 3px 1px rgb(255, 0, 153), 1px 4px 1px rgb(0, 191, 255),
+    //   1px 5px 1px rgb(220, 144, 46), 1px 6px 1px rgb(243, 67, 18);
+  }
+}
